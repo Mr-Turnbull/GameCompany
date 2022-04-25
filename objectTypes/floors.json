@@ -1,0 +1,55 @@
+{
+	"name": "floors",
+	"plugin-id": "Sprite",
+	"sid": 584129353805800,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 344914548333787
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2988674,
+						"collisionPoly": {
+							"points": [
+								0.038000000000000006,
+								0.8760000000000001,
+								0.966,
+								0.8820000000000001,
+								0.972,
+								0.964,
+								0.034000000000000016,
+								0.964
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 548397465009886,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

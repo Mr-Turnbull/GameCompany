@@ -1,0 +1,74 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 575362457066370
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Sprite2",
+					"sid": 665285554354103,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Sprite",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 151195541782566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 285817970099913,
+					"parameters": {
+						"object": "floors"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite2",
+					"sid": 954945537919990,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 725585340164363,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Sprite2",
+					"sid": 461450668584726,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 551071403931288
+		}
+	],
+	"sid": 436626622850271
+}
